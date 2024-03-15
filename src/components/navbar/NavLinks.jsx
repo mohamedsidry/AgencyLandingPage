@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { MenuContext } from './contexts/menuContext'
 
 function NavLinks() {
+
+  const context = useContext(MenuContext)
   return (
-                <ul className="nav-links hidden md:flex items-center gap-5">
+                <ul className={`nav-links ${context.isMenuActive ? '':'hidden'} md:flex items-center gap-5 `}>
                     <li className="nav-link">Service</li>
                     <li className="nav-link">Portfolio</li>
                     <li className="nav-link">About</li>

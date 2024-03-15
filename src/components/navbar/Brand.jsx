@@ -3,7 +3,7 @@ import logo from './../../assets/Logo.png'
 
 function Brand() {
   return (
-    <div className="brand p-2">
+    <div className="brand">
                 <img className='brand-logo' src={logo} alt="brand logo " />
     </div>
   )
