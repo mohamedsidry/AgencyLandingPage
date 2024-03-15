@@ -1,7 +1,7 @@
 import React from 'react'
-import Brand from './Brand'
-import mediaIcon from './../../../../assets/hero-img.jpg'
-import emailIcon from './../../../../assets/email-icon.png'
+import Brand from '../navbar/Brand'
+import mediaIcon from './../../assets/hero-img.jpg'
+import emailIcon from './../../assets/email-icon.png'
 
 function Footer() {
   return (

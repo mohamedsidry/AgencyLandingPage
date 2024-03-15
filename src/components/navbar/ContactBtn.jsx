@@ -1,5 +1,5 @@
 import React from 'react'
-import phoneIcon from './../../../../assets/ic_baseline-phone.png'
+import phoneIcon from './../../assets/ic_baseline-phone.png'
 
 function ContactBtn() {
   return (

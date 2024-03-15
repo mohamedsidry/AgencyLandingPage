@@ -1,5 +1,5 @@
 import React from 'react'
-import menuIcon from './../../../../assets/menu-icon.svg'
+import menuIcon from './../../assets/menu-icon.svg'
 
 function MenuBtn() {
   return (
